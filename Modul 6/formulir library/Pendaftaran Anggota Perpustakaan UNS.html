@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Pendaftaran Anggota Perpustakaan Tahun 2021 </title>
+</head>
+<body text="black" style="background-image: url(library.jpg);">
+    <center>
+    <form method="POST">
+        <table bgcolor=lightgrey cellpadding=5 cellspacing=5>
+            <tr>
+                <td></td>
+                <td colspan="5" align="center"><h2>PENDAFTARAN ANGGOTA <br> PERPUSTAKAAN UNS</h2></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label>NIM / NIP</label></td>
+                <td>:</td>
+                <td><input type="text" name="nim / nip" placeholder="NIM / NIP"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label>Nama</label></td>
+                <td>:</td>
+                <td><input type="text" name="nama" placeholder="Nama"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label>Program</label></td>
+                <td>:</td>
+                <td>
+                    <select name="program">
+                        <option value="program">Pilih Program...</option>
+                        <option value="d3/d4vokasi">D3/D4 Vokasi</option>
+                        <option value="s1alihjenjang">S1 Alih Jenjang</option>
+                        <option value="s1reguler">S1 Reguler</option>
+                        <option value="s2pascasarjana">S2 Pascasarjana</option>
+                    </select>
+                </td>
+            </tr> 
+            <tr>
+                <td></td>
+                <td><label>Fakultas</label></td>
+                <td>:</td>
+                <td>
+                    <select name="fakultas">
+                        <option value="fakultas">Pilih Fakultas...</option>
+                        <option value="feb">FEB</option>
+                        <option value="fh">FH</option>
+                        <option value="fib">FIB</option>
+                        <option value="fisip">FISIP</option>
+                        <option value="fk">FK</option>
+                        <option value="fkip">FKIP</option>
+                        <option value="fkor">FKOR</option>
+                        <option value="fmipa">FMIPA</option>
+                        <option value="fp">FP</option>
+                        <option value="ft">FT</option>
+                        <option value="fsrd">FSRD</option>
+                        <option value="fsv">FSV</option>
+                        <option value="fsps">FSPS</option>
+                    </select>
+                </td>
+            </tr> 
+            <tr>
+                <td></td>
+                <td><label>Prodi</label></td>
+                <td>:</td>
+                <td><input type="text" name="prodi" placeholder="Prodi"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label>Alamat Rumah</label></td>
+                <td>:</td>
+                <td><textarea type="text" name="alamatrumah" placeholder="Alamat Rumah"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label>Alamat Kost</label></td>
+                <td>:</td>
+                <td><textarea type="text" name="alamatkost" placeholder="Alamat Kost"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label>E-mail</label></td>
+                <td>:</td>
+                <td><input type="email" name="email" placeholder="E-mail"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label>Nomor HP</label></td>
+                <td>:</td>
+                <td><input type="number" name="nomorhp" placeholder="Nomor HP"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label>Jenis Kelamin</label></td>
+                <td>:</td>
+                <td><input type="radio" name="tipe" value="male"> Laki-Laki
+                    <input type="radio" name="tipe" value="female"> Perempuan </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label>TTL</label></td>
+                <td>:</td>
+                <td><input size="8" type="text" name="tempat" placeholder="Tempat">
+                    <input type="date" name="tgllahir"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><label>Nama Ibu</label></td>
+                <td>:</td>
+                <td><input type="text" name="namaibu" placeholder="Nama Ibu"></td>
+            </tr> 
+            <tr>
+                <td></td>
+                <td><label>Pas Foto</label></td>
+                <td>:</td>
+                <td><input type="file" name="pasfoto" placeholder="Pilih File"></td>
+            </tr> 
+            <tr>
+                <td></td>
+                <td>Apakah data yang diisi sudah benar?</td>
+                <td></td>
+                <td align="left"><input type="checkbox" name="check" placeholder="Centang">
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><br><input type="submit" name="submit" value="Daftar"></td>
+            </tr>
+        </table>
+    </form>
+    </center>
+</body>
+</html>
