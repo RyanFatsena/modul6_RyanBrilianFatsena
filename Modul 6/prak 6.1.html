@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Praktikum 6.1</title>
+        <style>
+        .static{
+            margin-left: 5px; 
+            position: static;
+            width: 800px;
+            height: 400px;
+            background: rgb(225, 154, 154);
+        }
+        .relative{
+            left: 400px; 
+            height: 500px; 
+            background: rgb(55, 153, 170);
+            position: relative; 
+            width: 800px;
+        }
+        .absolute{
+            left: 620px;
+            top: 150px; 
+            position: absolute; 
+            width: 800px; 
+            height: 300px; 
+            background: rgb(191, 238, 144);
+        }
+        .fixed{
+            left: 10px;
+            right: 10px; 
+            top: 0px; 
+            position: fixed; 
+            height: 40px;
+            width: auto;
+            background: lightblue;
+            border-radius: 10px;
+        } 
+        </style>
+    </head>
+    <body>
+        <div class="static">
+            <br><br><br>
+            <center>Ini Elemen Position: STATIC. <br>Nilai Left Tidak Berpengaruh</center>
+        </div>
+        <div class="relative">
+            <br><br><br><br><br><br>
+            <center>Ini Elemen Position: RELATIVE. <br>Nilai Left mMngikuti Alur</center>
+        </div>
+        <div class="absolute">
+            <br><br><br><br><br><br>
+            <center>Ini Elemen Position: ABSOLUTE. <br>Bisa Diletakkan Di Manapun</center>
+        </div>
+        <div class="fixed">
+            <center>Ini Elemen Position: FIXED.<br>Posisi Tetap Walaupun Di Scroll</center>
+        </div>
+    </body>
+</html>
